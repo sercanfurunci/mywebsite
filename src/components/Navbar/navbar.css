@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background-color: #fcbf49;
+}
+
+.navbarName {
+  width: 70%;
+  font-size: 3.5vw;
+  font-weight: 600;
+  font-family: Helvetica;
+  color: #003049;
+}

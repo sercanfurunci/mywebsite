@@ -1,0 +1,23 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.projectsTitleContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.projectsTitle {
+  width: 70%;
+  font-size: 7vw;
+  font-weight: 600;
+  font-family: Helvetica;
+}
