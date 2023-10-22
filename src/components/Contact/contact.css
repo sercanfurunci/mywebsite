@@ -22,20 +22,43 @@
   font-size: 7vw;
   font-weight: 600;
   font-family: Helvetica;
+  color: #274c77;
 }
-.contactTitle {
+
+.contactInput {
+  width: 30vw;
   display: flex;
   flex-direction: column;
+  color: #274c77;
+  font-size: 1.5vw;
+}
+.contactText {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  color: #274c77;
+  font-size: 1.5vw;
 }
 
 .textarea {
   width: 200%;
   height: 200vh;
 }
+.contactIcons {
+  color: #8b8c89;
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.3vw;
+  font-weight: 450;
+  gap: 3vw;
+}
 
 .sendButtonContainer {
   display: flex;
-  position: relative;
   align-items: flex-start;
   width: 70%;
 }
@@ -46,8 +69,8 @@
   padding: 0.5vw;
   border-radius: 10px;
   border: none;
-  background-color: #d62828;
-  color: #003049;
+  background-color: #8b8c89;
+  color: #e7ecef;
   cursor: pointer;
   transform: scale(1);
   transition: 0.3s;

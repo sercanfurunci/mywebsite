@@ -18,12 +18,13 @@
   font-size: 7vw;
   font-weight: 600;
   font-family: Helvetica;
+  color: #274c77;
 }
 
 .homeText {
   width: 70%;
   font-size: 1.5vw;
-  color: #003049;
+  color: #6096ba;
 }
 .seeWorksButtonContainer {
   display: flex;
@@ -37,8 +38,8 @@
   padding: 0.5vw;
   border-radius: 10px;
   border: none;
-  background-color: #d62828;
-  color: #003049;
+  background-color: #8b8c89;
+  color: #e7ecef;
   cursor: pointer;
   transform: scale(1);
   transition: 0.3s;

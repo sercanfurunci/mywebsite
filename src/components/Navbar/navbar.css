@@ -5,7 +5,7 @@
   position: fixed;
   width: 100%;
   z-index: 5;
-  background-color: #fcbf49;
+  background-color: #e7ecef;
 }
 
 .navbarName {
@@ -13,5 +13,17 @@
   font-size: 3.5vw;
   font-weight: 600;
   font-family: Helvetica;
-  color: #003049;
+  color: #274c77;
+}
+.navbarmenu {
+  color: #274c77;
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.3vw;
+  font-weight: 450;
+  gap: 3vw;
 }

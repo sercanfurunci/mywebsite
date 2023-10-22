@@ -20,4 +20,9 @@
   font-size: 7vw;
   font-weight: 600;
   font-family: Helvetica;
+  color: #274c77;
+}
+
+.carouselItem {
+  width: 100%;
 }

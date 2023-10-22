@@ -2,8 +2,14 @@ import React from "react";
 import "./home.css";
 
 function Home() {
+  const handleClickScroll = () => {
+    const element = document.getElementById("section-3");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
-    <div className="home">
+    <div className="home" id="section-1">
       <div className="helloTitleContainer">
         <div className="helloTitle">HELLO</div>
         <div className="homeText">
@@ -11,7 +17,9 @@ function Home() {
           connections with people through meaningful and deliberate design.
         </div>
         <div className="seeWorksButtonContainer">
-          <button className="seeWorksButton">See Works</button>
+          <button className="seeWorksButton" onClick={handleClickScroll}>
+            See Works
+          </button>
         </div>
       </div>
     </div>
